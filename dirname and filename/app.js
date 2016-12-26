@@ -1,0 +1,2 @@
+console.log(__dirname);  // prints the directory name (the full path) of whatever file is calling the code
+console.log(__filename); // prints file name (full path + file + extension) of whatever file is calling the code
