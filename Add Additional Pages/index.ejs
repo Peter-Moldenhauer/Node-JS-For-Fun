@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>petersWebSite</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <% include templates/header.ejs %>
+
+    <p><%= name %></p>
+
+    <ul>
+      <% for(var i=0; i<5; i++){ %>
+          <li>Hello World</li>
+      <% } %>
+    </ul>
+
+  </body>
+</html>
